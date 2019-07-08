@@ -1,0 +1,83 @@
+SECTION {
+  color: #0A2C41;
+  ;
+postion : absolute;
+top: 50%;
+left: 50%;
+text-align: center;
+align-content:  center;
+}
+body {
+  background-color: lightgrey;
+  font-family: Tw Cen MT	;
+  margin-left: 40px;
+padding: 50px;
+}
+span{
+
+color : grey;
+font-family: serif;
+font-size: 10px;
+}
+
+nav{
+
+  color: black;
+margin-right: 20px;
+}
+
+.photos-me img {
+
+  width: 20% ;
+height: 20%;
+display: inline-block;
+padding:3px;
+  border:1px solid #130C0C;
+  background-color: #130C0C;
+}
+
+.profile-img{
+
+width: 40%;
+float : right;
+padding : 20px
+}
+
+.profile-img img{
+
+  width: 50% ;
+height: 50%;
+display: inline-block;
+padding:3px;
+  border:1px solid #130C0C;
+  background-color: #130C0C;
+}
+
+.about {
+margin-left: 15px;
+
+}
+
+.profile-info{
+
+  width: 40%;
+  height: 40%;
+  float: left;
+  padding: 0 50px;
+}
+.profile-info h1{
+
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.social-media img{
+height: 30px;
+margin-right: 10px;
+}
+
+.social-media{
+
+  margin-top: 20px;
+ margin-left: 15px;
+}
