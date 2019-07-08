@@ -1,0 +1,70 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: -webkit-xxx-large;
+}
+
+h2,h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 66px;
+}
+
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+
+h4,h5{
+    display: inline;
+}
+
+ul li, ol li {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.top-section{
+    margin-left: 630px;
+}
+
+.navigation{
+    margin-left: 80px;
+    margin-bottom: -37px;
+    
+}
+
+.top-divider{
+   border: 4px solid black;
+}
+
+.down-divider{
+    border:0.5px solid black;
+    width: 1388px;
+}
+
+.active{
+    text-decoration: underline;
+    color: black;
+    
+}
+
+.unactive{
+    text-decoration: none;
+    
+}
+body{
+    background: #e9dede;
+}
+
+.vl {
+    border-left: 1.5px solid black;
+    height: 14px;
+    position: absolute;
+    left: 777px;
+    top: 27px;
+  }
+
+  .aboutNav{
+    margin-left: -1px;
+  }
+
+  .portfolioNav{
+    margin-right: 4px;
+  }

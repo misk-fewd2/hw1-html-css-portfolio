@@ -1,0 +1,44 @@
+.socialMedia{
+    position: absolute;
+    left: 650px;
+}
+.facebook-twitter-divider{
+    border-left: 1.5px solid black;
+    height: 14px;
+    position: absolute;
+    left: 74px;
+    top: 2px;
+}
+.twitter-instagram-divider{
+    border-left: 1.5px solid black;
+    height: 14px;
+    position: absolute;
+    left: 127px;
+    top: 2px;
+}
+.instagram-linkdien-divider{
+    border-left: 1.5px solid black;
+    height: 14px;
+    position: absolute;
+    left: 199px;
+    top: 2px;
+}
+
+.socialMedia a {
+    margin-left:8px;
+}
+.JoeDescribtion{
+    margin-left: 66px;
+}
+
+.footer-divider{
+    border: 4px solid black;
+    width: 1514px;
+    position: absolute;
+    top: 249px;
+}
+
+.about-down-divider{
+    border:0.5px solid black;
+    width: 1388px;
+}
