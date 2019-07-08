@@ -1,0 +1,29 @@
+.hp-issue-index {
+  text-decoration: underline;
+}
+
+ul .hp-issue-article-list {
+  color: red;
+}
+
+body {
+ padding-left: 400px;
+ font-family: Arial;
+ background-color: lightblue;
+
+}
+
+.footer-container{
+
+  font-size: xx-small;
+  font-style: italic;
+  
+}
+
+img{
+
+  padding:2px;
+  border:2px black;
+  background-color:black;
+  width: 300px;
+}
