@@ -1,0 +1,85 @@
+a {
+    color: black;
+    text-align: center, justify;
+    text-decoration: underline;
+}
+
+body {
+    background: rgb(188, 200, 235)
+}
+
+div {
+    text-align: center
+}
+
+head {
+    background-color: rgb(63, 107, 238)
+}
+
+h1 {
+    text-emphasis: 4;
+    text-align: center;
+    color: rgb(1, 9, 51)
+}
+
+h1.boody {
+    text-emphasis: 4;
+    text-align: left;
+    color: rgb(1, 9, 51)
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkblue;
+}
+
+h3 {
+    text-align: left;
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    text-align: center;
+    text-decoration: underline;
+    color: darkblue
+}
+
+i {
+    text-align: center;
+    color: blue;
+}
+
+li {
+    text-align: justify, center;
+    color: darkblue;
+    margin: 0 auto;
+    place-content: left;
+    width: 500px;
+    height: 100px;
+}
+
+title {
+    text-align: center;
+    color: darkblue;
+}
+
+p {
+    background-color: cornflowerblue;
+    color: darkblue;
+    text-align: justify, center;
+}
+
+p,
+br {
+    text-align: justify, center;
+    color: darkblue;
+    place-content: left;
+    width: 500px;
+    height: 100px;
+}
+
+h3.ul {
+    text-align: center, justify
+}
