@@ -1,0 +1,64 @@
+.body-main {
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 30px;
+}
+
+#name {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Source Serif Pro', 'tahoma';
+    color: #FD8469;
+}
+
+.sub-title {
+    color: #56C0E7;
+    font-family: 'Saira Semi Condensed', 'tahoma';
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+.li-details {
+    font-style: italic;
+}
+
+.portfolio-img {
+    border-radius: 8px;
+}
+
+.profile-pic {
+    float: right;
+    margin: 0px 30px 30px 20px;
+    width: 150px;
+}
+
+.profile-details {
+    display: flex;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    text-align: center;
+    color: #56C0E7;
+}
+
+.hyperlinks-tabs {
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 10pt;
+    color: grey;
+}
+
+.sub-title {
+    color: #56C0E7;
+    font-family: 'Saira Semi Condensed', 'tahoma';
+}
+
+p,
+ul {
+    color: grey;
+}
