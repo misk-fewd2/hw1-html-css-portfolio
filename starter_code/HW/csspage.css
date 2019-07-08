@@ -1,0 +1,47 @@
+.line{
+    padding: 20px;
+}
+
+a {
+    color: black;
+    font-size: 12pt;
+}
+
+.Header{
+    text-align: center;
+}
+
+.Body{
+    padding-bottom: 10px;
+    border-block-start: solid 1px;
+    border-block-end: solid 1px
+}
+
+.space{
+    padding: 20px;
+}
+
+#identity{
+    border: solid 1px;
+}
+
+.image {
+    padding: 5px;
+    border: solid 1px;
+}
+.address{
+    text-align: center;
+}
+.SocialMedia {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+
+.Content{
+    padding-bottom: 10px;
+    border-block-end: solid 1px;
+    border-block-start: solid 1px;
+    text-align: left;
+    
+}
