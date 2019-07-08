@@ -1,0 +1,53 @@
+body{
+  background-color: lightgray;
+}
+
+hr#normal{
+border-top: 4px solid black;
+}
+
+a{
+  color: black;
+}
+
+hr{
+  color: black;
+}
+
+h2,h3,h5, p{
+  padding-left: 160px;
+
+}
+
+ul{
+  padding-left: 180px;
+}
+
+#blank{
+  padding-left: 800px;
+  vertical-align: middle;
+
+}
+
+h4{
+  text-align: center;
+color: black;
+}
+
+#joe{
+  text-align: center;
+  text-decoration: none;
+}
+
+div{
+  padding-top: 5px;
+
+}
+
+img{
+  padding-left: 200px;
+}
+
+table{
+  padding-left: 180px;
+}
