@@ -1,0 +1,17 @@
+h4,h1,h2,p,h3{
+    text-align: center;
+  
+  }
+  ul{
+    font-style: oblique;
+  }
+  
+  body{
+  color: white;
+    background-color:  grey;
+    text-shadow: 10px;
+  }
+  h2{
+    font-style: oblique;
+  }
+  
