@@ -1,0 +1,55 @@
+h1{
+    margin: 10px;
+    text-align: center;
+    background: blueviolet;
+    color: aliceblue;
+}
+#ex {
+   
+    height: 0px;
+    border: 0px;
+    padding: 0px;
+    
+    margin: 0px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center; 
+
+}
+span {
+    font-size: 0.3cm;
+    
+}
+p {
+    color: #000;
+    font-family: 'Times New Roman', Times, serif
+}
+li  {
+    display: inline-block;
+ 
+    margin: 5px;
+    
+
+
+}
+.links {
+    margin: 5px;
+    padding: 1px;
+    margin: 2px;
+    background: blueviolet;
+    color: rgb(196, 89, 151);
+    
+
+}
+a {
+    color: rgb(201, 81, 175);
+    font-stretch: expanded;
+    font-style: unset;
+}
+.top {
+    color: rgb(8, 8, 8);
+    
+}
+footer{
+    color: aliceblue;
+}
