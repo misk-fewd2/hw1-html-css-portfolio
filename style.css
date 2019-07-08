@@ -1,0 +1,28 @@
+body{background-color:#f5f0ff;
+  text-align: justif;
+  border-style: solid;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: #74a7a4;
+  padding: 100px;
+  font-family: Bahnschrift;
+}
+a{color:#266360;
+}
+
+img{height: 360px;
+  width: 430px;
+vertical-align:text-bottom;
+margin:40px;
+border-style: inset;
+border-color:#74a7a4;
+}
+
+h2{text-decoration: underline;
+}
+
+span{color: #a492ca}
+span2{color: #c065de
+}
+
+li{color:#5e6c94}
