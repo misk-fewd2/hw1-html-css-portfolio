@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.classfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+html{
+    font-family: 'Muli', sans-serif;;
+    font-weight: 100;
+}
+body{
+    width: 60%;
+    margin: auto;
+    background-image: url(BG.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 50px;
+    font-weight: 400;
+    color:#153759;
+}
+h2{
+    font-size: 45px;
+    font-weight: 400;
+    color:#1f9968;
+}
+.pp{
+color: #153759;
+font-size: 20px;
+}
+p{
+    color: #d7942d;
+    opacity: 0.9;
+    font-weight: 50px;
+}
+/*-------nav---------*/
+.nav{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.contactMe,.navIcons{
+    flex: 1;
+}
+.navIcons{
+    text-align: right;
+}
+.navIcons a,.contactMe a,.contactMe img{
+display: inline-block;
+vertical-align:middle; 
+}
+.navIcons a{
+    margin-left: 40px;
+}
+.contactMe a{
+    color: #153759;
+    text-decoration: none; 
+}
+.contactMe img{
+    margin-right: 10px;
+}
+/*---------landing------------*/
+.landing{
+    height: 100vh;
+    position: relative;
+}
+.landinigWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top:40px;
+}
+ul{
+    list-style: none;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.landingL{
+    margin-top: 1em;
+}
+.landingR img{
+    border-radius: 50%;
+}
+.scroll{
+    position: absolute;
+    bottom: 140px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/*---------experience------------*/
+.experience,.reletiveExperience,.other{
+    text-align: center;
+    margin-bottom: 5em;
+}
+.experience p{
+    margin-bottom: 30px;
+}
+.experience img{
+    width: 10pc;
+
+}
+/*---------Education------------*/
+.Education{
+    text-align: center;
+    margin-bottom: 5em;
+}
+.Education p{
+    margin-bottom:10px;
+}
+.Education img{
+    width: 10pc;
+    margin-bottom:40px;
+
+}
+/*---------Footer------------*/
+.Footer{
+    background-image:url("footerx.png");
+    background-repeat:repeat;
+    background-position:fixed;
+    background-size: 400px;
+    padding-bottom: 4em;
+    text-align: center;
+    width: 100%;
+}
+.Footer a{
+    color:#153759 ;
+    text-decoration: none;
+}
+.underlineSmall{
+    display: block;
+    height: 3px;
+    width: 41px;
+    margin: 5px auto 0 auto;
+    background-color: #1f9968;
+}
