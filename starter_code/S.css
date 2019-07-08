@@ -1,0 +1,150 @@
+ body{
+   	font-family: "Lucida Console", Monaco, monospace;
+   	background-image: url("background.jpg");
+   
+   	background-size: 1500px;
+    margin-left: 30px;
+
+  
+
+   }
+
+    .Animatedcontainer {
+  display: flex;
+  justify-content: center;
+}
+.break{
+  border-bottom: solid 1px black;
+  width: 600px;
+  margin: 20px auto;
+}
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+  color:black;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #027555; }
+}
+
+
+   .menu {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+   display: table;
+   text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+
+   
+}
+
+h1{
+  text-align: center;
+/*  border-bottom: 1px;
+*/
+  padding-bottom: 20px;
+  margin: 0px 200px;
+
+}
+
+.div1{
+  background-color: #333;
+  width: 100%;
+
+}
+
+
+.listmenu {
+ float: left;
+
+ 
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  float: none;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+align-self: center;
+
+}
+.websites{
+    display: block;
+    border: solid 1px black;
+   margin: 30px auto;
+
+ 
+
+
+}
+
+.socialMedia{
+   height: 40px;
+   width: 40px;
+
+
+}
+a{
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.socialMediaContainer{
+ width: 15%;
+  margin: 30px auto;
+}
+.active {
+  background-color: #027555;
+}
+.content{
+margin-left: 200px;
+margin-right: 200px;
+padding-bottom: 40px;
+background-color: #ffffff
+  /*border-radius: 25px;*/
+}
+ul.no_bullet {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+li.leaf {
+background: url('leaf.png') no-repeat left top;
+
+height: 54px;
+
+padding-left: 44px;
+padding-top: 3px;
+display: block;
+
+}
+.content2{
+margin-left: 40px;
+margin-right: 40px;
+
+}
