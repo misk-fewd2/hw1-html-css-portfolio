@@ -1,0 +1,44 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+  li,ul{ 
+      padding-left: 1em; }
+body{
+
+    background: rosybrown;
+
+}
+div {
+    width: 300px;
+    border: 15px solid ivory;
+    padding: 50px;
+    margin: 20px;
+  }
+
+.first {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+.img {
+    float: left;
+  }
+.footer {
+    font-family: algerian, courier;
+    font: bold;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 92%;    
+    background-color: wheat;
+    color: rgb(75, 65, 65);
+    text-align: center;
+    padding: 8px;
+    margin: 12px;
+  }
