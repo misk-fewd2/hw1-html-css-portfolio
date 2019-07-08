@@ -1,0 +1,31 @@
+body{
+    position: fixed;
+    top:30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    height: 100vh;
+    line-height: 1.6;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: #fdf0f6;
+color: #F3AAB0;
+
+}
+.button {
+    background-color: #F3AAB0;
+    border: none;
+    color:black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 8px;
+
+  }
+  
+  .button:hover {opacity: 1}
