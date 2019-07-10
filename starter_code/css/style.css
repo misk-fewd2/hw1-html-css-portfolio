@@ -1,0 +1,46 @@
+
+body {
+  background-color: silver;
+  padding: 20px;
+  font-family: Arial;
+
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+html{
+	background-color: selver;
+}
+
+
+
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
