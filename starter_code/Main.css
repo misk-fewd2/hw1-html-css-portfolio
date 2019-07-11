@@ -69,7 +69,7 @@ a:link {
 
 main {
     width: 100%;
-    height: 410px;
+    height: fit-content;
 }
 
 .title {
@@ -90,39 +90,199 @@ main {
 hr {
     width: 1000px;
     height: 3px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     background-color: #666;
 }
 
-.tcontent {
+.content {
+    font-family: 'Lato', sans-serif;
     width: 94%;
-    height: 180px;
-    display: block;
+    height: auto;
+    display: inline-block;
     padding: 10px 50px 10px 50px;
 }
 
-.tcontent h4 {
-    font-family: 'Lato', sans-serif;
-    font-size: 23px;
+.content h4 {
+    font-size: 25px;
     width: auto;
     color: #666;
     text-align: left;
     padding-left: 10%;
     padding-right: 10%;
+    margin-bottom: 0px;
 }
 
-.tcontent p {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
+.ex-content {
+    display: flex;
+}
+
+.content .p {
+    display: flex;
+    justify-content: flex-start;
+    font-family: serif;
+    font-size: 19px;
     text-align: justify;
+    align-items: center;
     width: auto;
     color: #666;
-    text-align: left;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.content p {
+    display: flex;
+    justify-content: flex-start;
+    font-family: serif;
+    font-size: 19px;
+    text-align: justify;
+    align-items: center;
+    width: auto;
+    color: #666;
     margin-left: 10%;
     margin-right: 11%;
 }
 
-.fcontent {
+.content .kot {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 250px;
+    height: 250px;
+    object-fit: fill;
+    margin-right: 12%;
+}
+
+.content h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    width: auto;
+    margin-bottom: 0px;
+    color: #666;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 3px;
+}
+
+.content h6 {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    width: auto;
+    margin-bottom: 0px;
+    color: #666;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 5px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+.PortfolioUL {
+    padding-left: 10%;
+}
+
+.PortfolioUL li {
+    font-size: 17px;
+    list-style-type: square;
+    font-family: serif;
+    text-align: justify;
+    width: 100vw;
+    color: #666;
+    text-align: left;
+    margin-left: 3%;
+    margin-right: 25%;
+}
+
+.date {
+    font-size: 14px;
+}
+
+.content .port-image {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 11%;
+}
+
+.content .port-image .bw {
+    width: 550px;
+    height: 200px;
+    object-fit: fill;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.content .port-image .logo {
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.content .port-image .web {
+    width: 600px;
+    height: 500px;
+    object-fit: fill;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 8%;
+    margin-right: 9%;
+}
+
+.art {
+    display: flex;
+    height: 400px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.art p {
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    width: auto;
+    color: rgb(255, 255, 255);
+}
+
+.one {
+    background-image: url('./images/art1.jpg');
+}
+
+.two {
+    background-image: url('./images/art2.jpg');
+}
+
+.three {
+    background-image: url('./images/art3.jpg');
+}
+
+.sm-p {
+    display: flex;
+    justify-content: center;
+}
+
+.sm-p p {
+    display: flex;
+    font-family: serif;
+    font-size: 19px;
+    color: #666;
+}
+
+.socialmedia {
     width: auto;
     display: block;
     padding: 15px 50px 15px 50px;
@@ -171,12 +331,13 @@ hr {
 }
 
 
-/*------------fotter------------*/
+/*------------footer------------*/
 
 footer {
     background: rgba(223, 117, 153, 0.5);
     width: 100%;
     height: 97px;
+    align-items: flex-end;
 }
 
 .cp-text {
