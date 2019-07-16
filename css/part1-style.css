@@ -1,0 +1,91 @@
+.container{
+    color: rgb(255, 255, 255);
+    padding: -1px 175px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 38px;
+    margin:-34px -9px;
+    cursor: pointer;
+}
+.uname{
+        margin-left: -233px;  
+    }
+
+.text{
+    padding: 6px;
+    padding-bottom: 6px;
+    margin-left: -200px;
+}
+
+
+.button{
+        background-color:rgb(141, 160, 211); 
+        border: none;
+        color: black;
+        padding: 12px 175px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 19px;
+        margin:34px -6px;
+        cursor: pointer;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        margin-right: 23px;
+        
+}
+
+button:hover {
+ 
+    opacity: 0.8;
+}
+.body-style { 
+    background-image: url("background 1.img");
+    margin: 250px;
+    margin-left: 474px;
+    margin-top: 262px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: normal; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.Ryan3-style{
+    background-image: url("background\ 3.jpg");
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: normal; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.img{
+    margin: 250px;
+    margin-left: 174px;
+    margin-top: 262px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: normal; 
+    
+}
+
+.Ryan3-img{
+
+    margin: 98px;
+    margin-top: 250px;
+    margin-left: 260px;
+    
+    
+    
+}
+
+.Ryan4-style{
+    background-image: url("two.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
