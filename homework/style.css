@@ -1,35 +1,45 @@
 body{
 	background: #f9f3ec;
-	border: 30px;
+
+border-top:solid medium;
+border-bottom:solid medium; 
+border-width: 5px;
+	
 }
 .list {
-	margin: 20px;
-	padding: 10px;
-	font-family: Serif;
-	text-align: center;
+	display: flex;
+	border-top: thick;
+	direction: center;
 }
-.li
+li
 {
-	margin: 20px;
-	padding: 10px;
+ margin:20px;
+padding: 20px;
+	display: flex;
 	font-family: Serif;
+	direction: center;
+	
+}
+
+h1{
+	color: black;
+	font-family: Medium Italic;
 	text-align: center;
 }
-.h1{
-	color: #6e9086;
-	font-family: Medium Italic;
-	text-align: 20px;
+img{
+	align-items: right;
+border-image-width: 20px;
 }
 h3
 {
-	color: #6e9086;
+	color: black;
 	font-family: Medium Italic;
-	text-align: 20px;
+	direction: ltr;
 
 }
-.p
+p
 {
-	color: #6e9086;
+	color: black;
 	font-family: Medium Italic;
-	text-align: 20px;
+	direction: ltr;
 }
