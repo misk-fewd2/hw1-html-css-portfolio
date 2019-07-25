@@ -1,0 +1,33 @@
+
+
+page {
+  font-size:
+  color:
+  font-family:
+  background-color:#E0E0E0;
+  text-decoration:
+
+}
+
+.main img {
+
+    width: 30%;
+  }
+
+  .header nav {
+  list-style: none;
+  float: center;
+  margin: 0;
+  margin-right: 5%;
+  padding: 0;
+  width: 25%;
+}
+
+.bottom nav {
+list-style: none;
+float: center;
+margin: 0;
+margin-right: 5%;
+padding: 0;
+width: 25%;
+}
